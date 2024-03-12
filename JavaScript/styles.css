@@ -1,4 +1,12 @@
 /* CSS for styling the button */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Set the body height to full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
 button {
     padding: 10px 20px;
     font-size: 18px;
@@ -15,7 +23,13 @@ button:hover {
 }
 
 /* CSS for styling the message container */
-#messageContainer {
+/* #messageContainer {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+} */
+
+#firstname {
     margin-top: 20px;
     font-size: 24px;
     color: #333;
