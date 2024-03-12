@@ -17,8 +17,18 @@
     margin: 0 auto; /* Center align content */
 }
 
+/* Logo styles */
+.logo {
+    width: 200px; /* Adjust image width */
+    height: 200px; /* Adjust image height */
+    border-radius: 50%; /* Rounded corners */
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    margin-bottom: 20px; /* Space below the image */
+}
+
 /* Main heading styles */
 .main-heading {
+    font-family: 'Rubik', sans-serif; /* Apply 'Rubik' font to main heading */
     font-size: 36px; /* Large font size */
     color: #333; /* Dark grey text color */
     margin-bottom: 20px; /* Space below the heading */
@@ -35,6 +45,7 @@
 .description {
     font-size: 18px; /* Normal font size */
     color: #666; /* Light grey text color */
+    line-height: 1.4;
     margin-bottom: 30px; /* Space below the paragraph */
 }
 
@@ -46,7 +57,7 @@
     text-decoration: none; /* Remove underline */
     padding: 10px 20px; /* Padding inside the button */
     border-radius: 5px; /* Rounded corners */
-    font-size: 22px; /* Normal font size */
+    font-size: 24px; /* Normal font size */
     transition: background-color 0.3s; /* Smooth transition on hover */
 }
 
