@@ -1,0 +1,74 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body background color */
+body {
+    background-color: #f5f5f5; /* Light body background */
+}
+
+/* Container styles */
+.container {
+    max-width: 400px; /* Limit width of container */
+    margin: 50px auto; /* Center align container */
+    background-color: #fff; /* White background for the form container */
+    padding: 30px; /* Padding around the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Heading styles */
+.heading {
+    font-size: 24px; /* Large font size */
+    color: #8b5f25; /* Light brown color for heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Description paragraph styles */
+.description {
+    font-size: 16px; /* Normal font size */
+    color: #333; /* Dark grey text color */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Form styles */
+.subscription-form {
+    text-align: center; /* Center align form elements */
+}
+
+/* Label styles */
+label {
+    display: block; /* Display labels as blocks */
+    margin-bottom: 10px; /* Space below each label */
+    font-size: 16px; /* Normal font size */
+    color: #333; /* Dark grey text color */
+}
+
+/* Input field styles */
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Full width input fields */
+    padding: 10px; /* Padding inside the input fields */
+    margin-bottom: 20px; /* Space below each input field */
+    border: 1px solid #ccc; /* Grey border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Button styles */
+.submit-btn {
+    background-color: #8b5f25; /* Light brown button color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Normal font size */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+/* Hover effect on button */
+.submit-btn:hover {
+    background-color: #6e481c; /* Darker shade of brown on hover */
+}
