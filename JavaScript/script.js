@@ -6,7 +6,7 @@ function showWelcomeMessage() {
     
     // Set the message text to "Welcome!"
     //messageContainer.textContent = "Welcome!";
-    firstname.textContent = "Karol"
+    firstname.textContent = "Karol";
 }
 
 // Get a reference to the button element using its ID
