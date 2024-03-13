@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #f07167;
     color: #333;
 }
 
 header {
-    background-color: #ffcc00;
+    background-color: #f07167;
     text-align: center;
     padding: 20px;
 }
@@ -28,19 +28,21 @@ main {
 }
 
 .description {
-    background-color: #fff;
+    background-color: #00afb9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    color: #fff;
 }
 
 /* RSVP form styles */
 .rsvp-form {
-    background-color: #fff;
+    background-color: #00afb9;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
 }
 
 .form-group {
@@ -58,11 +60,12 @@ select {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    margin-bottom: 5px;
 }
 
 button[type="submit"] {
     background-color: #ffcc00;
-    color: #fff;
+    color: black;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
